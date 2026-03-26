@@ -1,10 +1,131 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>My Profile</title>
+  <meta charset="UTF-8">
+  <title>My Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0f172a;
+      color: #e2e8f0;
+    }
+    header {
+      text-align: center;
+      padding: 60px 20px;
+      background: #1e293b;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+    header p {
+      color: #94a3b8;
+    }
+    nav {
+      text-align: center;
+      background: #020617;
+      padding: 10px;
+    }
+    nav a {
+      color: #38bdf8;
+      margin: 0 15px;
+      text-decoration: none;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .card {
+      background: #1e293b;
+      padding: 20px;
+      margin: 15px 0;
+      border-radius: 10px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #020617;
+      color: #64748b;
+    }
+  </style>
 </head>
 <body>
-  <h1>Hello, I'm Monali 👋</h1>
-  <p>Welcome to my GitHub profile website!</p>
+
+<header>
+  <h1>Monali Shinde</h1>
+  <p>AI Architect | MS LJMU University England | Tech Enthusiast</p>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#projects">Projects</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+  <h2>About Me</h2>
+  <div class="card">
+    <p>
+      Hello there!
+
+Welcome to my page on github. I am a lifelong learner with over 20 years of experience in transforming enterprise business solutions using various Business Orchastration and Automation Technologies. I am at my best when I am a learning something new or imagining what’s next! I love dreaming ways technology can solve just about any problem - whether it’s helping a top UK bank enhance fraud detection or figuering out the perfect weekend adventure with my 5-year old.
+
+My LinkedIn profile is on left if you want to connect with me.
+
+Alright, so, one fine day I decided to go through Masters Program for AI & ML and here I am, with the list of my academic projects. To tell you the truth I cannot wait to work on my masters thesis and the industry projects once the program is finished in December 2025. Be back here then and will have my masters dissertation listed here.
+    </p>
+  </div>
+</section>
+
+<section id="projects">
+  <h2>Projects (Feb 2024 - March 2025)</h2>
+
+  <div class="card">
+    <h3>AI Text Summerizer</h3>
+    <p>An AI Application that uses OpenAI GPT to summarize long text into concise summaries.
+Ideal for quickly understanding articles, notes, or any long paragraphs.It uses artificial intelligence—specifically natural language processing (NLP) and machine learning—to automatically condense long articles, documents, or reports into concise summaries. It highlights key points, main ideas, and critical insights, enabling users to grasp the essence of content without reading it in full.</p>
+  </div>
+
+  <div class="card">
+    <h3>Gesture recognition project using CNN-RNN stack</h3>
+    <p>Recognized 5 different hand gestures from short video clips
+Developed a generator to process videos as sequences of images
+Created Conv3D models with varying numbers of layers and evaluated their accuracy
+Built Conv2D models with TimeDistributed layers, as well as GRU and LSTM models, and assessed their accuracy and performance
+</p>
+  </div>
+
+<div class="card">
+    <h3>Melanoma Detection using custom convolutional neural network using TensorFlow</h3>
+    <p>Rescaled and normalized images to create a Convolutional Neural Network (CNN) model for predicting 9 classes of skin cancer
+Trained the model over a specified number of epochs
+Selected a data augmentation strategy and an optimizer, addressing class imbalance
+</p>
+  </div>
+
+<div class="card">
+    <h3>House Price Prediction using Advanced Regression Techniques</h3>
+    <p>Predicted House Prices for a Housing Company using Ridge and Lasso regression methods
+Compared Ridge and Lasso regression methods and understand factors driving the house prices
+</p>
+  </div>
+  
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <div class="card">
+    <p>Email: monalipshinde80@gmail.com</p>
+    <p>GitHub: https://github.com/monalisp</p>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Monali</p>
+</footer>
+
 </body>
 </html>
